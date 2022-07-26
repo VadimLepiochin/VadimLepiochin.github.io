@@ -170,4 +170,13 @@ table {
   .hobby img {
     width: 33%;
   }
+  h2 {
+    font-size: 8rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  li {
+    font-size: 2rem;
+  }
 }
