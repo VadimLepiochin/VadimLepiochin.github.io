@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  color: #bae8e8;
+  font-family: "Great Vibes", cursive;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  letter-spacing: normal;
+  margin: 3rem 0;
+  font-size: 6rem;
+}
+
+h3 {
+  text-align: left;
+}
+
+.dark {
+  background-color: #272343;
+  color: #bae8e8;
+}
+
+.light {
+  background-color: #bae8e8;
+  color: #272343;
+}
+
+.pi {
+  margin-top: 0;
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  color: #f8b500;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #bae8e8;
+  border-color: #272343;
+  color: #272343;
+  margin-bottom: 3rem;
+}
+
+.btn:hover {
+  background-color: #f8b500;
+  border-color: #f8b500;
+  color: #272343;
+}
+
+.topContainer {
+  padding: 5rem 0 10rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.background {
+  max-width: 100%;
+  min-width: 100%;
+  vertical-align: bottom;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  display: block;
+  position: absolute;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+  line-height: 2;
+}
+
+span {
+  margin-left: 20px;
+}
+
+td {
+  padding-left: 20px;
+}
+
+.language {
+  text-align: right;
+}
+
+.stars {
+  text-align: left;
+}
+
+.hobby {
+  display: inline;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+
+.languages-image {
+  width: 100%;
+}
+
+table {
+  margin-bottom: 2rem;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+#hobbies h3{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.hobby-image {
+  width: 100%;
+  border-radius: 90%;
+}
+
+.hobby {
+  padding-top: 4rem;
+}
+
+@media (max-width: 1200px){
+  .container-fluid {
+    padding: 3% 8% 5%;
+  }
+  .skills-image {
+    width: 99%;
+  }
+}
+
+@media (max-width: 991px){
+  .img {
+    display: none;
+  }
+  li, h3 {
+    text-align: center;
+  }
+  .container-fluid {
+    padding: 3% 15% 5%;
+  }
+}
+
+@media (max-width: 767px){
+  .hobby img {
+    width: 33%;
+  }
+}
