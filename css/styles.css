@@ -228,13 +228,19 @@ table {
   padding-bottom: 1.5rem;
 }
 
+.hobby {
+  padding-top: 4rem;
+}
+
 .hobby-image {
   width: 100%;
   border-radius: 90%;
+  transition: transform 2s cubic-bezier(0.55, 0.55, 0.55, 0.55);
 }
 
-.hobby {
-  padding-top: 4rem;
+.hobby-image:hover {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 
 @media (max-width: 1720px) {
@@ -307,11 +313,12 @@ table {
   }
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .img {
     display: none;
   }
-  li, h3 {
+  li,
+  h3 {
     text-align: center;
   }
   .container-fluid {
@@ -326,7 +333,8 @@ table {
   h2 {
     font-size: 8rem;
   }
-  h3, .pi {
+  h3,
+  .pi {
     font-size: 2.7rem;
   }
   li {
